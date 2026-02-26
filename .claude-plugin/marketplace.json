@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "marco-insight-video",
-      "source": "skills/marco-insight-video",
+      "source": "./skills/marco-insight-video",
       "version": "1.0.0",
       "description": "音频/视频内容洞察机器人 - 从YouTube等视频网站下载字幕并进行深度智慧分析",
       "author": {
