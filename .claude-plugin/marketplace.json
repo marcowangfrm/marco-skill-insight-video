@@ -1,13 +1,17 @@
 {
   "name": "marco-skill-insight-video",
-  "version": "1.0.0",
-  "description": "X-ray scans articles to extract wisdom cores using a 4-layer funnel methodology, generating Markdown reports with ASCII art visualizations",
-  "author": "marcowangfrm",
-  "skills": [
+  "owner": {
+    "name": "marcowangfrm"
+  },
+  "plugins": [
     {
       "name": "marco-insight-video",
-      "path": "skills/marco-insight-video/SKILL.md",
-      "description": "音频/视频内容洞察机器人 - 从YouTube等视频网站下载字幕并进行深度智慧分析"
+      "source": "skills/marco-insight-video",
+      "version": "1.0.0",
+      "description": "音频/视频内容洞察机器人 - 从YouTube等视频网站下载字幕并进行深度智慧分析",
+      "author": {
+        "name": "marcowangfrm"
+      }
     }
   ]
 }
